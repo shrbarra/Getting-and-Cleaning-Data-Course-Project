@@ -9,14 +9,23 @@ file as tidy_data.txt into the current directory.
 ## The run.analysys.R runs as the following:
 Presumes that the dataset is located in the current WD so it sets the WD as "./UCI HAR Dataset";
 1.1) Imports the Labels for Activity and Features;
+
 1.2) Imports subjects;
+
 2.1) Creates a vector with activities references;
+
 2.2) Matches the activity's numbers with their names;
+
 3) Imports the measurements;
+
 4) Creates one dataset: TRAIN + TEST and cbind's named activities and the measurements;
+
 5.1) Selects cols with mean() or std();
+
 5.2) Use descriptive variable names;
+
 6) Groups Subject and Activity from merged_set;
+
 7) Exports the final_set to a txt file.
 
 More information about the dataset can be found in the Human Activity Recognition dataset within the files: README.txt, 
