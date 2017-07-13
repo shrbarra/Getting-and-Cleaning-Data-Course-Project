@@ -1,4 +1,4 @@
-#Run_analysis() function as part of the course project from Coursera's Getting and Cleaning
+# Run_analysis() function as part of the course project from Coursera's Getting and Cleaning
 Data Course from Johns Hopkins University.
 This function takes data from [Human Activity Recognition dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
@@ -6,18 +6,18 @@ It reads TRAIN (X_train.txt) and TEST (X_test.txt) datasets, merges both and fil
 including mean and standard deviation transformations. Then, it assigns descriptive labels to all columns andsaves the
 file as tidy_data.txt into the current directory.
 
-##The run.analysys.R runs as the following:
+## The run.analysys.R runs as the following:
 *Presumes that the dataset is located in the current WD so it sets the WD as "./UCI HAR Dataset";
-*1.1) Imports the Labels for Activity and Features;
-*1.2) Imports subjects;
-*2.1) Creates a vector with activities references;
-*2.2) Matches the activity's numbers with their names;
-*3) Imports the measurements;
-*4) Creates one dataset: TRAIN + TEST and cbind's named activities and the measurements;
-*5.1) Selects cols with mean() or std();
-*5.2) Use descriptive variable names;
-*6) Groups Subject and Activity from merged_set;
-*7) Exports the final_set to a txt file.
+* 1.1) Imports the Labels for Activity and Features;
+* 1.2) Imports subjects;
+* 2.1) Creates a vector with activities references;
+* 2.2) Matches the activity's numbers with their names;
+* 3) Imports the measurements;
+* 4) Creates one dataset: TRAIN + TEST and cbind's named activities and the measurements;
+* 5.1) Selects cols with mean() or std();
+* 5.2) Use descriptive variable names;
+* 6) Groups Subject and Activity from merged_set;
+* 7) Exports the final_set to a txt file.
 
 More information about the dataset can be found in the Human Activity Recognition dataset within the files: README.txt, 
 features.txt, features_info.txt and activity_labels.txt.
