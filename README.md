@@ -6,7 +6,7 @@ It reads TRAIN (X_train.txt) and TEST (X_test.txt) datasets, merges both and fil
 including mean and standard deviation transformations. Then, it assigns descriptive labels to all columns andsaves the
 file as tidy_data.txt into the current directory.
 
-## The run.analysys.R runs as the following:
+## The run.analysis.R runs as the following:
 Presumes that the dataset is located in the current WD so it sets the WD as "./UCI HAR Dataset".
 
 1) Imports the Labels for Activity and Features.
