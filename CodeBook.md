@@ -17,16 +17,16 @@ This function takes data from [Human Activity Recognition dataset](https://d396q
 grouped by subject and activity.
 
 ## Transformations on column labels:
-*t -> Time.
-*f -> Frequency.
-*Acc -> Acceleration.
-*Gyro -> Gryoscope.
-*() -> "".
-*Mag -> Magnitude.
-*std -> StandardDeviation.
-*med -> Median.
-*sma -> SignalMagnitude.
-*iqr -> InterquartileRange.
+* t -> Time.
+* f -> Frequency.
+* Acc -> Acceleration.
+* Gyro -> Gryoscope.
+* () -> "".
+* Mag -> Magnitude.
+* std -> StandardDeviation.
+* med -> Median.
+* sma -> SignalMagnitude.
+* iqr -> InterquartileRange.
 
 More information about the dataset can be found in the Human Activity Recognition dataset within the files: README.txt, 
 features.txt, features_info.txt and activity_labels.txt.
